@@ -72,14 +72,14 @@ Caso tenha produtos antigos e queira forçar o recálculo dos descontos de todos
 //             'posts_per_page' => -1,
 //             'post_status' => 'publish'
 //         ];
-
+//
 //         $produtos = get_posts($args);
 //         $plugin = new MaiorDescontoWooCommerce();
-
+//
 //         foreach ($produtos as $produto) {
 //             $plugin->calcular_desconto_produto($produto->ID);
 //         }
-
+//
 //         echo count($produtos) . ' produtos atualizados.';
 //         exit;
 //     }
