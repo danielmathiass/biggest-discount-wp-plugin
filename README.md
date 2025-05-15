@@ -20,17 +20,17 @@ Plugin para **WordPress + WooCommerce** que calcula automaticamente o percentual
    ```bash
    git clone https://github.com/danielmathiass/biggest-discount-wp-plugin.git
    ```
-(Opcional) Renomeie a pasta para:
+2. (Opcional) Renomeie a pasta para:
 
 ```bash
 maior-desconto-woocommerce
 ```
-Mova a pasta para o diretório de plugins do seu WordPress:
+3. Mova a pasta para o diretório de plugins do seu WordPress:
 
 ```bash
 wp-content/plugins/
 ```
-Acesse o painel do WordPress, vá até Plugins e ative Maior Desconto WooCommerce.
+4. Acesse o painel do WordPress, vá até Plugins e ative Maior Desconto WooCommerce.
 
 ## ⚙️ Como funciona
 

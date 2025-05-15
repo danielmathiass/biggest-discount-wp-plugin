@@ -40,7 +40,6 @@ class MaiorDescontoWooCommerce
         if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
             return;
         }
-
         //o cast para float vai garantir que o calculo seja numericos.
         $regular_price = (float) get_post_meta($post_id, '_regular_price', true);
         $sale_price = (float) get_post_meta($post_id, '_sale_price', true);
